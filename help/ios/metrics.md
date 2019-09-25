@@ -12,16 +12,14 @@ uuid: b795e383-d59b-4a3c-9e14-ffe8fb58412c
 
 Here are the metrics and dimensions that can be automatically measured by the mobile library after lifecycle is implemented.
 
->[!IMPORTANT]
->
->New Adobe Experience Cloud SDK Release
->
->Looking for information and documentation related to the Adobe Experience Platform Mobile SDK? Click [here](https://aep-sdks.gitbook.io/docs/) for our latest documentation.
->
->As of September 2018, we released a new, major version of the SDK. These new Adobe Experience Platform Mobile SDKs are configurable through [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
->
->* To get started, go to [Experience Platform Launch](https://launch.adobe.com/).
->* To see what is in the Experience Platform SDK repositories, go to [Github: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
+## New Adobe Experience Platform Mobile SDK Release
+
+Looking for information and documentation related to the Adobe Experience Platform Mobile SDK? Click [here](https://aep-sdks.gitbook.io/docs/) for our latest documentation.
+
+As of September 2018, we released a new, major version of the SDK. These new Adobe Experience Platform Mobile SDKs are configurable through [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
+
+* To get started, go to [Experience Platform Launch](https://launch.adobe.com/).
+* To see what is in the Experience Platform SDK repositories, go to [Github: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
 
 ## Lifecycle metrics and dimensions {#section_78F036C4296F4BA3A47C2044F79C86C1}
@@ -89,7 +87,7 @@ For Analytics, the context data that is sent with each lifecycle tracking call i
 >
 > The *Daily Engaged Users* and *Monthly Engaged Users* metrics are not automatically stored in an Analytics metric. You must create a processing rule that sets a custom event to capture these metrics.
 
-### Dimensions
+#### Dimensions
 
 * **Install Date**
 
