@@ -31,7 +31,7 @@ As of September 2018, we released a new, major version of the SDK. These new Ado
 
 Some information to remember:
 
-* iOS 5 or later is supported
+* iOS 8 or later is supported
 
   For iOS 11 or later, you **must** have SDK version 4.13.8 or later. 
 
