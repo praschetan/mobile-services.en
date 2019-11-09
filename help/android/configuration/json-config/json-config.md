@@ -214,7 +214,7 @@ Here is a list of the variables in the JSON file and the minimum SDK version you
 
 * **ssl**
   * Minimum SDK version: 4.0
-  * The default value is `false`. 
+  * Starting 4.10.0, the default value is `true`. 
   
     Enables (`true`) or disables (`false`) the ability to send measurement data by using SSL (HTTPS). 
 
