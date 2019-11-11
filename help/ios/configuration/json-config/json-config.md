@@ -242,7 +242,11 @@ The same config file can be used for your app across multiple platforms:
 
 * **ssl**
 
-  The default value is `false`. Enables (`true`) or disables (`false`) the ability to send measurement data by using SSL (HTTPS). 
+   >[!IMPORTANT]
+   >
+   > Starting version 4.10.0, SSL defaults to true if the flag is not set.
+   
+  Enables (`true`) or disables (`false`) the ability to send measurement data by using SSL (HTTPS). 
 
   The definition for the "callback" message template is shown below:
 
