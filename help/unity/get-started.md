@@ -12,7 +12,7 @@ uuid: 83289a73-982d-4472-a8c8-00b562dc80f5
 
 This Plug-in lets you send Adobe Analytics calls from your Unity applications.
 
-Last Updated: **October 20, 2016**
+Last Updated: **November 12, 2019**
 
 ## Getting started {#section_246D1F9B32ED47EABC41BDA8D0BD0CC7}
 
@@ -23,18 +23,7 @@ Here are the contents of the `ADBMobile.unitypackage` file:
 * Assets (root)
 
   * ADBMobile
-
-    * Demo
-
-      * ADBMobileDemo.cs 
-      * BooDemo.boo 
-      * BooScene.unity 
-      * CSharpScene.unity 
-      * JavaScriptDemo.js 
-      * JavaScriptScene.unity 
-      * SecondScene.unity 
-      * SecondSceneScript.cs
-
+  
   * Plugins
 
     * ADBMobile.cs 
