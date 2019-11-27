@@ -61,7 +61,7 @@ To download the SDK:
      ![](assets/step_3.png)
 
 1. Click **[!UICONTROL Finish]**. 
-1. In **[!UICONTROL Project Navigator]**, select **[!UICONTROL`ADBMobileConfig.json`]**. 
+1. In **[!UICONTROL Project Navigator]**, select **`ADBMobileConfig.json`**. 
 1. In **[!UICONTROL File Inspector]**, add the JSON file to any targets in your project that will use the Adobe SDK.
 
    ![](assets/step_4.png)
