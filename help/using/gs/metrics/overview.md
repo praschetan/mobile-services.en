@@ -50,7 +50,7 @@ You can perform the following tasks on the Overview page:
 
 * **Display Key Performance Indicators** 
 
-  Click the name of the app to display details about the key performance indicators. The lines on the chart are color coded, and you can mouse over the data point to display the statistics for specific dates. To drill down, click the **[!UICONTROL]** > icon next to **[!UICONTROL Key Performance Indicators]**. The lines on the chart are color coded, and you can mouse over any data point to see statistics for specific dates. Click a column header in the table to sort the data in ascending or descending order.
+  Click the name of the app to display details about the key performance indicators. The lines on the chart are color coded, and you can mouse over the data point to display the statistics for specific dates. To drill down, click the icon next to **[!UICONTROL Key Performance Indicators]**. The lines on the chart are color coded, and you can mouse over any data point to see statistics for specific dates. Click a column header in the table to sort the data in ascending or descending order.
 
 ## Edit an app's settings {#section_C1CF227A2E534A798F0073E43AD6A2D1}
 
