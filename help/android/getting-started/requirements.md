@@ -80,13 +80,19 @@ To create a report suite to collect app data and define an app:
 
 To download the mobile SDK:
 
-1. Log in to the Mobile Services UI and open your app in one of the following ways:
+1. To log in to the Mobile Services UI, type [https://mobilemarketing.adobe.com/](https://mobilemarketing.adobe.com/) in a browser.
+1. In the top right-hand side of the UI, next to the solution switcher, verify that you are in the correct organization.
+1. Find your app in one of the following ways:
 
-    * In the **[!UICONTROL All Apps]** drop-down list, select your app. 
-    * On the right pane, find your app, and open it.
+    * In the left pane, click the icon next to **[!UICONTROL All Apps]**, and select your app from the drop-down list.
+    * On the right pane, locate your app, and open it.
 
-1. Click **[!UICONTROL Manage App Settings]**. 
-1. Scroll to the **[!UICONTROL App SDK Downloads]** section. 
+      >![IMPORTANT]
+      >
+      >To see your app displayed on the right pane, you must first create an app. For information about creating an app, see [Add a new app](https://docs.adobe.com/content/help/en/mobile-services/using/manage-apps-ug/t-new-app.html).
+
+1. In your app, in the left pane, click **[!UICONTROL Manage App Settings]**. 
+1. At the bottom of the page, scroll down to the **[!UICONTROL App SDK Downloads]** section.
 1. Download the SDK and the sample app for your platform.
 
 >[!TIP]
