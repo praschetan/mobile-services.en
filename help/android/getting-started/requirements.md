@@ -31,10 +31,9 @@ App developers now have access to view the report suite(s) that you created.
 
 ### App developers
 
-1. Ensure that your Analytics administrator has completed the steps in the *Analytics Administrators* section in [Role-Specific Tasks](../getting-started/requirements.md#section_8B9EA1FA189F4C6DB7D829F0B5844FBC). 
-
+1. Ensure that your Analytics administrator has completed the steps in the *Analytics Administrators* in [Role-Specific Tasks](../getting-started/requirements.md#section_8B9EA1FA189F4C6DB7D829F0B5844FBC). 
 1. Verify that your Analytics administrator has completed one of the sections in [Log in to the Adobe Mobile Services UI](../getting-started/requirements.md#section_690A2EC4572E47869F183974E932A6A8). 
-1. After the report suite has been configured, complete steps in [Download the SDK](../getting-started/requirements.md#section_044C17DF82BC4FD8A3E409C456CE9A46).
+1. After the report suite has been configured, complete steps in the [Download the SDK](../getting-started/requirements.md#section_044C17DF82BC4FD8A3E409C456CE9A46).
 
 For more information about roles and permissions, see [Roles and Permissions](/help/using/gs/c-mob-roles-and-permissions.md).
 
@@ -81,19 +80,18 @@ To create a report suite to collect app data and define an app:
 To download the mobile SDK:
 
 1. To log in to the Mobile Services UI, type [https://mobilemarketing.adobe.com/](https://mobilemarketing.adobe.com/) in a browser.
-1. In the top right-hand side of the UI, next to the solution switcher, verify that you are in the correct organization.
-1. Find your app in one of the following ways:
+1. Locate your app in one of the following ways:
 
-    * In the left pane, click the icon next to **[!UICONTROL All Apps]**, and select your app from the drop-down list.
+    * In the left pane, click the **[!UICONTROL All Apps]** drop-down list, and select your app.
     * On the right pane, locate your app, and open it.
 
-      >![IMPORTANT]
-      >
-      >To see your app displayed on the right pane, you must first create an app. For information about creating an app, see [Add a new app](https://docs.adobe.com/content/help/en/mobile-services/using/manage-apps-ug/t-new-app.html).
-
 1. In your app, in the left pane, click **[!UICONTROL Manage App Settings]**. 
-1. At the bottom of the page, scroll down to the **[!UICONTROL App SDK Downloads]** section.
-1. Download the SDK and the sample app for your platform.
+
+    >[!IMPORTANT]
+    >
+    >If you do not see the **[!UICONTROL Manage App Settings]** option, ensure that you are logged into Adobe Mobile Services. To verify, click the solution switcher (![solution switcher](assets/solution-switcher.png)) icon in the top right side of the page and ensure that **[!UICONTROL Adobe Mobile Services]** is displayed in the top left side.
+
+1. At the bottom of the Manage App Settings page, in the **[!UICONTROL App SDK Downloads]** section, download the SDK and the sample app for your platform.
 
 >[!TIP]
 >
