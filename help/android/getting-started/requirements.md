@@ -89,7 +89,7 @@ To download the mobile SDK:
 
     >[!IMPORTANT]
     >
-    >If you do not see the **[!UICONTROL Manage App Settings]** option, ensure that you are logged into Adobe Mobile Services. To verify, click the solution switcher (![solution switcher](assets/solution-switcher.png)) icon in the top right side of the page and ensure that **[!UICONTROL Adobe Mobile Services]** is displayed in the top left side.
+    >If you do not see the **[!UICONTROL Manage App Settings]** option, ensure that you are logged into Adobe Mobile Services. To verify, click the ![solution switcher](assets/solution-switcher.png) icon in the top right side of the page and ensure that **[!UICONTROL Adobe Mobile Services]** is displayed in the top left side.
 
 1. At the bottom of the Manage App Settings page, in the **[!UICONTROL App SDK Downloads]** section, download the SDK and the sample app for your platform.
 
