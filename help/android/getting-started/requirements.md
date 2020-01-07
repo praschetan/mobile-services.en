@@ -59,7 +59,8 @@ You can log in to the Adobe Mobile Services UI in one of the following ways:
 
 To create a report suite to collect app data and define an app:
 
-1. Click **[!UICONTROL Create New App]**.
+1. Log in to the Mobile Services UI by typing [https://mobilemarketing.adobe.com/](https://mobilemarketing.adobe.com/) in a browser.
+1. Click **[!UICONTROL Create an App]**.
 
    If you do not see this button, click **[!UICONTROL Manage Apps]** > **[!UICONTROL Add]**. 
 
@@ -79,12 +80,13 @@ To create a report suite to collect app data and define an app:
 
 To download the mobile SDK:
 
-1. To log in to the Mobile Services UI, type [https://mobilemarketing.adobe.com/](https://mobilemarketing.adobe.com/) in a browser.
-1. Locate your app in one of the following ways:
+1. log in to the Mobile Services UI by typing [https://mobilemarketing.adobe.com/](https://mobilemarketing.adobe.com/) in a browser.
+1. In the left pane, click the **[!UICONTROL All Apps]** drop-down list and select your app.
+    You can also select your app in the right pane. 
 
-    * In the left pane, click the **[!UICONTROL All Apps]** drop-down list, and select your app.
-    * On the right pane, locate your app, and open it.
-
+      >[!IMPORTANT]
+      >
+      >To see your app displayed on the right pane, you must first create an app. For information about creating an app, see [Add a new app](https://docs.adobe.com/content/help/en/mobile-services/using/manage-apps-ug/t-new-app.html).
 1. In your app, in the left pane, click **[!UICONTROL Manage App Settings]**. 
 
     >[!IMPORTANT]
