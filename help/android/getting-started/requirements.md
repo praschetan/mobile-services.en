@@ -86,7 +86,8 @@ To download the mobile SDK:
 
       >[!IMPORTANT]
       >
-      >To see your app displayed on the right pane, you must first create an app. For information about creating an app, see [Add a new app](https://docs.adobe.com/content/help/en/mobile-services/using/manage-apps-ug/t-new-app.html).
+      >To see your app displayed on the right pane, you must first create an app. For information about creating an app, see [Add a new app.](https://docs.adobe.com/content/help/en/mobile-services/using/manage-apps-ug/t-new-app.html)
+
 1. In your app, in the left pane, click **[!UICONTROL Manage App Settings]**. 
 
     >[!IMPORTANT]
