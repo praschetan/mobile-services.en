@@ -30,15 +30,15 @@ Acquisition links must be created in Adobe Mobile services. For more information
 
 **In SDK versions 4.18.0 and later**:
 
-Starting on March 1, 2020, [Google is deprecating the install_referrer intent broadcast mechanism](https://android-developers.googleblog.com/2019/11/still-using-installbroadcast-switch-to.html). If you wish to continue collecting install referrer information from the Google Play store, you will need to update your application to use SDK version 4.18.0 or newer.
+Starting on March 1, 2020, Google is deprecating the install_referrer intent broadcast mechanism as outlined in this article, [Still Using InstallBroadcast? Switch to the Play Referrer API by March 1, 2020](https://android-developers.googleblog.com/2019/11/still-using-installbroadcast-switch-to.html). To continue collecting install referrer information from the Google Play store, update your application to use SDK version 4.18.0 or newer.
 
-The changes no longer require you to create a `BroadcastReceiver`. Instead, you will collect the install referrer URL from a new Google API and pass the resulting URL to the SDK.
+With the deprecation, instead of creating a `BroadcastReceiver`, you need to collect the install referrer URL from a new Google API and pass the resulting URL to the SDK.
 
 1. Add the Google Play Install Referrer package to your gradle file's dependencies:
 
    `implementation 'com.android.installreferrer:installreferrer:1.1'`
 
-1. Follow [Google's documentation for retrieving the referrer URL from the Install Referrer API](https://developer.android.com/google/play/installreferrer/library#install-referrer).
+1. To retrieve the referrer URL from the Install Referrer API, complete the steps in [Getting the install referrer](https://developer.android.com/google/play/installreferrer/library#install-referrer).
 
 1. Pass the referrer URL to the SDK:
 
@@ -46,9 +46,9 @@ The changes no longer require you to create a `BroadcastReceiver`. Instead, you 
 
 >[!IMPORTANT]
 >
->Google recommends that you avoid unnecessary API calls in your app, by only invoking the API one time immediately after install.
+>To avoid unnecessary API calls in your app, Google recommends that you only invoke the API once immediately after install.
 
-You should consult Google's documentation and decide the best way to use the Google Play Install Referrer APIs in your app. Below is an example of how to use the Adobe SDK with the Google Play Install Referrer APIs:
+To decide the best way to use the Google Play Install Referrer APIs in your app, see Google's documentation. Here is an example of how to use the Adobe SDK with the Google Play Install Referrer APIs:
 
 ```java
 void handleGooglePlayReferrer() {
@@ -137,7 +137,7 @@ If you are using the Acquisition links that were created on Adobe Mobile Service
 
 1. Prefix an acquisition variable with " `adb`".
 
-   When the SDK receives the acquisition data from Adobe Mobile Services (on first launch), that data will be stored and also available in the `AdobeDataCallback` instance registered earlier with the SDK, as mentioned in [Configuration Methods](/help/android/configuration/methods.md).
+   When the SDK receives the acquisition data from Adobe Mobile Services at the first launch, the data is stored and is available in the `AdobeDataCallback` instance that was registered earlier with the SDK. For more information, see [Configuration Methods](/help/android/configuration/methods.md).
 
 1. The `MobileDataEvent.MOBILE_EVENT_ACQUISITION_INSTALL` or the `MobileDataEvent.MOBILE_EVENT_ACQUISITION_LAUNCH` event type will be used.
 

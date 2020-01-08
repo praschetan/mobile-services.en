@@ -258,7 +258,7 @@ Each of the following methods is used to send data to your Adobe Analytics repor
 
     If referrer data has already been collected by the SDK, calling this method will result in a no-op.
 
-    For information on how to retrieve the referrer URL, see the Google documentation: https://developer.android.com/google/play/installreferrer/library
+    For information on how to retrieve the referrer URL, see the Google documentation: https://developer.android.com/google/play/installreferrer/library.
 
   * Here is the syntax for this method:
 
