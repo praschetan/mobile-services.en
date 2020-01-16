@@ -12,6 +12,12 @@ uuid: 16bb4de8-a216-47a8-928c-0b1e1421adcf
 
 Here is the release notes, known issues, and hot fix information for Android SDK 4.x for Experience Cloud Solutions:
 
+**January 16, 2020: 4.18.0**
+
+* Acquisition - Added a new API, `Analytics.processGooglePlayInstallReferrerUrl(final String url)`, to support Google Play Install Referrer APIs.
+
+  For more information about the Install Referrer APIs, see [Still Using InstallBroadcast? Switch to the Play Referrer API by March 1, 2020](https://android-developers.googleblog.com/2019/11/still-using-installbroadcast-switch-to.html) .
+
 **September 20, 2019: Version 4.17.10**
 
 * General: Fixed locale string generation for some regions on Android API level 21 or newer.

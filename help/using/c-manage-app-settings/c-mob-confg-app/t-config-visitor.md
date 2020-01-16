@@ -11,7 +11,7 @@ uuid: e69b57f7-153a-4a95-9c1e-c07fe29dea2d
 
 # Configure SDK ID Service Options {#configure-sdk-id-service-options}
 
-You can configure the Adobe Experience Platform Identity Service options on the Manage App Settings page while creating a new app or editing an existing app.
+You can configure the Adobe Experience Cloud Identity Service options on the Manage App Settings page while creating a new app or editing an existing app.
 
 1. Type information in the following fields under **[!UICONTROL Visitor ID Service]**:
 
