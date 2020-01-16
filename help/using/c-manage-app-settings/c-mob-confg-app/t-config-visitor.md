@@ -13,10 +13,10 @@ uuid: e69b57f7-153a-4a95-9c1e-c07fe29dea2d
 
 You can configure the Adobe Experience Platform Identity Service options on the Manage App Settings page while creating a new app or editing an existing app.
 
-1. Type information in the following fields under **[!UICONTROL ID Services Options]**:
+1. Type information in the following fields under **[!UICONTROL Visitor ID Service]**:
 
     * **[!UICONTROL Enable]**
-    Enable this option to use the ID service. For more information, go to [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).<!-- REKHA - don't know where this content has been migrated to. -->
+    Enable this option to use the ID service. For more information, see [Overview](https://docs.adobe.com/content/help/en/id-service/using/intro/overview.html).
 
     * **[!UICONTROL Organization]**
       Select your organization from the drop-down list.
