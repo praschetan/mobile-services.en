@@ -30,7 +30,7 @@ Acquisition links must be created in Adobe Mobile services. For more information
 
 **In SDK versions 4.18.0 and later**:
 
-Starting on March 1, 2020, Google is deprecating the install_referrer intent broadcast mechanism as outlined in this article, [Still Using InstallBroadcast? Switch to the Play Referrer API by March 1, 2020](https://android-developers.googleblog.com/2019/11/still-using-installbroadcast-switch-to.html). To continue collecting install referrer information from the Google Play store, update your application to use SDK version 4.18.0 or newer.
+Starting on March 1, 2020, Google is deprecating the install_referrer intent broadcast mechanism. For more information, see [Still Using InstallBroadcast? Switch to the Play Referrer API by March 1, 2020](https://android-developers.googleblog.com/2019/11/still-using-installbroadcast-switch-to.html). To continue collecting install referrer information from the Google Play store, update your application to use SDK version 4.18.0 or newer.
 
 With the deprecation, instead of creating a `BroadcastReceiver`, you need to collect the install referrer URL from a new Google API and pass the resulting URL to the SDK.
 
