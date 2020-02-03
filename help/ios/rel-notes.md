@@ -12,6 +12,14 @@ uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
 
 Here is the release notes, known issues, and hot fix information for iOS SDKs 4.x for Experience Cloud Solutions:
 
+**Feburary 4, 2020: Version 4.19.0**
+
+* Lifecycle - Added a new API, pauseCollectingLifecycleData, to mitigae the abnormal session length data that was reported from some old iOS devices.
+
+**November 8, 2019: Version 4.18.9**
+
+* In App Messaging - Fixed a bug where cached or bundled images could not be loaded in the full screen messages.
+
 **September 20, 2019: Version 4.18.8**
 
 * In App Messaging:

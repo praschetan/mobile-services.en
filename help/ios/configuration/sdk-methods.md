@@ -53,7 +53,7 @@ The SDK currently has support for multiple Adobe Experience Cloud Solutions, inc
 
     ```objective-c
     NSString*libraryVersion = [ADBMobileversion];
-      ```
+    ```
 
 * **privacyStatus**
 
@@ -266,6 +266,29 @@ The SDK currently has support for multiple Adobe Experience Cloud Solutions, inc
     [ADBMobile collectLifecycleDataWithAdditionalData:@{@"entryType":@"appShortcutIcon"}]; 
     ```
 
+* **pauseCollectingLifecycleData**
+
+  Use this API to pause the collection of lifecycle data. For more information, see [Lifecycle Metrics](/help/ios/metrics.md). 
+
+  >[!IMPORTANT]
+  >
+  >Should only use this method in the `applicationDidEnterBackground delegate` method, and it is best to make this call first in the `applicationDidEnterBackground` method. 
+  >
+  >The API is provided to mitigate the issue on iPhone7/7s or older devices with iOS 13 where the session length metric became abnormal. This was due to some unknown changes happend since iOS 13, iOS doesn't leave enough time for background task to finish when backgrouding the app.
+
+  * Here is the syntax for this method:
+
+    ```objective-c
+    + (void) pauseCollectingLifecycleData;
+    ```
+
+  * Here is the code sample for this method:
+
+    ```objective-c
+    [ADBMobile pauseCollectingLifecycleData];
+    ```
+
+
 * **overrideConfigPath**
 
   Lets you load a different ADBMobile JSON config file when the application starts. The different configuration is used until the application is closed. 
@@ -278,7 +301,7 @@ The SDK currently has support for multiple Adobe Experience Cloud Solutions, inc
 
     ```objective-c
      + (void) overrideConfigPath: (nullableNSString *) path;
-     ```
+    ```
 
   * Here is the code sample for this method:
 
