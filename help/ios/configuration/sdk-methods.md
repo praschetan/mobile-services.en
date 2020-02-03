@@ -53,7 +53,7 @@ The SDK currently has support for multiple Adobe Experience Cloud Solutions, inc
 
     ```objective-c
     NSString*libraryVersion = [ADBMobileversion];
-      ```
+    ```
 
 * **privacyStatus**
 
@@ -266,6 +266,40 @@ The SDK currently has support for multiple Adobe Experience Cloud Solutions, inc
     [ADBMobile collectLifecycleDataWithAdditionalData:@{@"entryType":@"appShortcutIcon"}]; 
     ```
 
+* **pauseCollectingLifecycleData**
+
+  Use this API to pause the collection of lifecycle data. For more information, see [Lifecycle Metrics](/help/ios/metrics.md). 
+
+  >[!IMPORTANT]
+  >
+  >In the `applicationDidEnterBackground` delegate method, you must first call the `pauseCollectingLifecycleData` method.
+  >
+  >The API is provided to mitigate the issue on iPhone7/7s or older devices with iOS 13 where the session length metric became abnormal. This was due to some unknown changes that have occurred in iOS 13, where iOS does not leave enough time for the background task to finish when you backgroud the app.
+
+  * Here is the syntax for this method:
+
+    ```objective-c
+    + (void) pauseCollectingLifecycleData;
+    ```
+
+  * Here is the code sample for this method:
+
+    ```objective-c
+    - (void)applicationDidEnterBackground:(UIApplication *)application{
+        // manually stop the lifecycle of SDK
+        // important: do NOT call any track state or track action after this line
+        [ADBMobile pauseCollectingLifecycleData];   
+    
+    
+        // the following code is optional, may help to mitigate the issue a bit more. If you have other logic to run here that probably takes more than 10ms, then there is no need to add this line of code.
+        [NSThread sleepForTimeInterval:0.01];
+    
+    
+        // app's code to handle applicationDidEnterBackground
+    }
+    ```
+
+
 * **overrideConfigPath**
 
   Lets you load a different ADBMobile JSON config file when the application starts. The different configuration is used until the application is closed. 
@@ -278,7 +312,7 @@ The SDK currently has support for multiple Adobe Experience Cloud Solutions, inc
 
     ```objective-c
      + (void) overrideConfigPath: (nullableNSString *) path;
-     ```
+    ```
 
   * Here is the code sample for this method:
 
