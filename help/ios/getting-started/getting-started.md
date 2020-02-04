@@ -21,5 +21,6 @@ As of September 2018, we released a new, major version of the SDK. These new Ado
 * To get started, go to Adobe Experience Platform Launch.
 * To see what is in the Experience Platform SDK repositories, go to [Github: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
->[!IMPORTANT}
+>[!IMPORTANT]
+>
 >As of April 1, 2020, Apple will no longer support the UIWebView API. To avoid any issues, ensure that you are using v4 SDK for iOS version 4.18.8 or later. For more information about the UIWebView API, see [UIWebView](https://developer.apple.com/documentation/uikit/uiwebview).
