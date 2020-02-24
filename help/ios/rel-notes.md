@@ -14,7 +14,7 @@ Here is the release notes, known issues, and hot fix information for iOS SDKs 4.
 
 **Feburary 4, 2020: Version 4.19.0**
 
-* Lifecycle - Added a new API, pauseCollectingLifecycleData, to mitigae the abnormal session length data that was reported from some old iOS devices.
+* Lifecycle - Added a new API, pauseCollectingLifecycleData, to mitigate the abnormal session length data that was reported from some old iOS devices.
 
 **November 8, 2019: Version 4.18.9**
 
