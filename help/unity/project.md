@@ -16,7 +16,7 @@ When you build for iOS, an Xcode Project is created. By default, the `ADBMobileW
 
 1. Add your `ADBMobileConfig.json` file to the project.
 
-   Ensure that it is a member of the build any targets necessary. 
+   Ensure that it is a member of the build any targets necessary.
 
 1. In the **[!UICONTROL Build Phases]** tab of your project, add a link to the following libraries:
 
@@ -37,11 +37,11 @@ If you need to use your own custom manifest file, the following changes should b
 
 Add permissions for:
 
-* `INTERNET` 
+* `INTERNET`
 * `ACCESS_NETWORK_STATE`
 
 ```java
-<uses-permission android:name="android.permission.INTERNET" /> 
+<uses-permission android:name="android.permission.INTERNET" />
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 ```
 
@@ -49,16 +49,6 @@ If you are using In-app messaging, add the following activity and receiver:
 
 ```java
 <activity android:name="com.adobe.mobile.MessageFullScreenActivity"  
-android:theme="@android:style/Theme.Translucent.NoTitleBar" /> 
-<receiver android:name="com.adobe.mobile.MessageNotificationHandler" /> 
-```
-
-If you are using acquisition, add the following receiver:
-
-```java
-<receiver android:name="com.your.package.name.GPBroadcastReceiver" android:exported="true"> 
-   <intent-filter> 
-      <action android:name="com.android.vending.INSTALL_REFERRER" /> 
-   </intent-filter> 
-</receiver>
+android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+<receiver android:name="com.adobe.mobile.MessageNotificationHandler" />
 ```
