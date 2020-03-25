@@ -71,15 +71,10 @@ In addition to the user's guide, you can download the Software Development Kits 
 Native libraries are provided for the following platforms:
 
 * [Android SDK 4.x for Experience Cloud Solutions](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)
-
 * [iOS SDK 4.x for Experience Cloud Solutions](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)
-
 * [Unity Plug-in for iOS and Android 4.x SDK](https://docs.adobe.com/content/help/en/mobile-services/unity/get-started.html)
-
 * [Xamarin Components for Experience Cloud Solutions 4.x SDK](https://docs.adobe.com/content/help/en/mobile-services/xamarin/get-started.html)
-
 * [Universal Windows Platform SDK 4.x for Experience Cloud Solutions](https://docs.adobe.com/content/help/en/mobile-services/universal-windows/overview.html)
-
 * [Windows 8.1 Universal App Store](https://docs.adobe.com/content/help/en/mobile-services/windows-universal-appstore/overview.html)
 
   * [Windows Visual Studio Extensions for Experience Cloud Solutions 4.x SDK](https://docs.adobe.com/content/help/en/mobile-services/windows-universal-appstore/win-vse-4x.html)
