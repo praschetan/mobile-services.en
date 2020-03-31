@@ -15,6 +15,14 @@ This guide outlines technical documentation and self help for Adobe Mobile Servi
 >
 >The Adobe Analytics Mobile Marketing Add-on SKU is required to enable Mobile Services access to mobile acquisition, deep linking, geolocation, and mobile messaging capabilities. For more information, contact your Adobe CSM.
 
+## Annoucing End of Support for 4x SDKs
+
+After September 30, 2020, customers can continue to download and use the version 4 SDKs, but there will be no Customer Care support or access to forums. The Adobe Experience Platform Mobile SDK (previously referred to as v5) will exclusively support upcoming Adobe Experience Cloud features and functionality. 
+
+Please see end of support [FAQ](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq) for more details.
+
+We recommend that you migrate to the new Experience Platform Mobile SDK when feasible.
+
 ## New Adobe Experience Cloud SDK Release
 
 Looking for information and documentation related to the Adobe Experience Platform Mobile SDK? Click [here](https://aep-sdks.gitbook.io/docs/) for our latest documentation.
