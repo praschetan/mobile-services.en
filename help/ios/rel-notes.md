@@ -12,6 +12,15 @@ uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
 
 Here is the release notes, known issues, and hot fix information for iOS SDKs 4.x for Experience Cloud Solutions:
 
+**March 24, 2020: Version 4.19.2**
+
+* General - Fixed some leaks in Target code.
+
+**March 12, 2020: Version 4.19.1**
+
+* General - Resolved a potential crash caused when Swift enums are included in context data for tracking calls.
+* Target – Target Session Id will now be added as a context data parameter ‘a.target.sessionId’ in the internal Analytics for Target hit sent to Adobe Analytics.
+
 **Feburary 4, 2020: Version 4.19.0**
 
 * Lifecycle - Added a new API, pauseCollectingLifecycleData, to mitigate the abnormal session length data that was reported from some old iOS devices.
