@@ -27,8 +27,7 @@ The following method must be called once in the `onCreate` method of your main a
      setContentView(R.layout.main);
      Config.setContext(this.getApplicationContext());
    }
-   ````
-
+  ```
 
 ## SDK settings (Config Class) {#section_C1EB977043C04D2B93E5A63DB72828B6}
 

@@ -87,7 +87,7 @@ The following code should be added in the `onCreate` method of your main activit
      setContentView(R.layout.main);
      Config.setContext(this.getApplicationContext());
    }
-   ````
+```
 
 ## Implement lifecycle metrics {#section_BA686C09021F474AADDE8690BBB910F7}
 
