@@ -36,7 +36,7 @@ Each of these methods is used to send data into your Adobe Analytics report suit
     ```objective-c
     [ADBMobile  trackState:@"loginScreen"
                       data:nil]; 
-    ````
+    ```
 
 * **trackAction:​data:**
 
