@@ -67,7 +67,7 @@ The same config file can be used for your app across multiple platforms:
 
 * **charset**
 
-  Defines the character set that you are using for the data that is sent to Analytics. The charset is used to convert incoming data into UTF-8 for storage and reporting. For more information, see [s.charSet](https://marketing.adobe.com/resources/help/en_US/sc/implement/charset.html). 
+  Defines the character set that you are using for the data that is sent to Analytics. The charset is used to convert incoming data into UTF-8 for storage and reporting. For more information, see [s.charSet](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/charset.html). 
 
   * Minimum SDK version: 4.0
 

@@ -14,7 +14,7 @@ The Adobe Experience Platform Identity Service provides a universal visitor ID a
 
 >[!TIP]
 >
->You do not need to populate this ID unless you are using the Adobe Experience Platform Identity Service. For more information, see [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+>You do not need to populate this ID unless you are using the Adobe Experience Platform Identity Service. For more information, see [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html).
 
 >[!IMPORTANT]
 >

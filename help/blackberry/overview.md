@@ -30,7 +30,7 @@ In addition to significant performance increases, version 4 adds the following n
 |--- |--- |
 |Opt-in/Opt-out|Quickly enable and disable analytics.|
 
-For more information about the release notes for all solutions, see [Adobe Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/). 
+For more information about the release notes for all solutions, see [Adobe Experience Cloud Release Notes](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html). 
 
 ## Using Bloodhound
 

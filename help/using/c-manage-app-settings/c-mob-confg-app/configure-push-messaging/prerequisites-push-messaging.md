@@ -61,7 +61,7 @@ Each user must link the Analytics solution account from the Experience Cloud org
 
     The Adobe ID is now linked to your Analytics account, company, and log-in credentials.
 
-For more information, see [Troubleshooting Account Linking](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
+For more information, see [Troubleshooting Account Linking](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html).
 
 ## Configure push services and the SDK ID service in the Mobile User Interface
 

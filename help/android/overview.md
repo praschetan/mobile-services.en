@@ -45,11 +45,11 @@ Some information to remember:
 
 ## Adobe Mobile user documentation {#section_7583FD5FDED143619048E9744A3F2D21}
 
-Adobe Mobile services provides a UI that brings together mobile marketing capabilities for mobile applications from across the Adobe Experience Cloud. To learn more about the UI and read the user documentation, see [Adobe Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/).
+Adobe Mobile services provides a UI that brings together mobile marketing capabilities for mobile applications from across the Adobe Experience Cloud. To learn more about the UI and read the user documentation, see [Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html).
 
 ## Release notes {#section_F8181DC052D44DD2A99AB40A41F6792C}
 
-For the latest information about Experience Cloud releases, see [Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/). 
+For the latest information about Experience Cloud releases, see [Experience Cloud Release Notes](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html). 
 
 ## Using Bloodhound
 

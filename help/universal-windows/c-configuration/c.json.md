@@ -36,7 +36,7 @@ The SDK currently has support for multiple Adobe Experience Cloud Solutions, inc
 
 * **charset**
 
-  Defines the character set you are using for the data sent to Analytics. The charset is used to convert incoming data into UTF-8 for storage and reporting. For more information, see [s.charSet](https://marketing.adobe.com/resources/help/en_US/sc/implement/charset.html). 
+  Defines the character set you are using for the data sent to Analytics. The charset is used to convert incoming data into UTF-8 for storage and reporting. For more information, see [s.charSet](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/charset.html). 
 
 * **ssl**
 

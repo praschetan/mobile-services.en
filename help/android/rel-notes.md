@@ -45,4 +45,4 @@ sync call to the Visitor ID Service every time it is called.
 timeouts from 2 seconds to 5 seconds.
 
 
-For more information about the current and past release notes for all solutions, see [Adobe Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/). 
+For more information about the current and past release notes for all solutions, see [Adobe Experience Cloud Release Notes](hhttps://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html). 

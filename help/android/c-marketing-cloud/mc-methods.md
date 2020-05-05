@@ -19,7 +19,7 @@ Methods are prefixed according to the solution. For example, Experience Cloud ID
 
 * **public static String appendToURL(final String URL)**
 
-  Appends Adobe visitor data to a URL string for use with the Adobe JavaScript library. You must have Mobile SDK 4.12+ to use this method. For more information, see [Append Visitor ID Helper Function](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-appendvisitorid.html). 
+  Appends Adobe visitor data to a URL string for use with the Adobe JavaScript library. You must have Mobile SDK 4.12+ to use this method. For more information, see [Append Visitor ID Helper Function](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/appendvisitorid.html). 
   
   >[!IMPORTANT]
   >

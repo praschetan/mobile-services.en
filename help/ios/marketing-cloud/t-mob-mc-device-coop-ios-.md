@@ -16,7 +16,7 @@ To enable your mobile apps for the Experience Cloud Device Co-op, complete the f
 >
 >This functionality requires iOS SDK version 4.8.5 or later.
 
-Starting in SDK version 4.16.1, Device Co-op members can opt their mobile device data out of the Experience Cloud Device Co-op. For more information see [ADBMobile JSON Config](/help/ios/configuration/json-config/json-config.md) and the `visitorAPI.js` method for [isCoopSafe](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-coopsafe.html). 
+Starting in SDK version 4.16.1, Device Co-op members can opt their mobile device data out of the Experience Cloud Device Co-op. For more information see [ADBMobile JSON Config](/help/ios/configuration/json-config/json-config.md) and the `visitorAPI.js` method for [isCoopSafe](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/coopsafe.html). 
 
 1. Implement the Adobe Mobile SDK.
 

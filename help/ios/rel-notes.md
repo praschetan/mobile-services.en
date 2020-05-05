@@ -65,4 +65,4 @@ Here is the release notes, known issues, and hot fix information for iOS SDKs 4.
 
 * Visitor ID Service - The `setPushIdentifier` API call now sends a sync call to the Visitor ID Service every time it is called. 
 
-For more information about the current and past release notes for all solutions, see [Adobe Experience Cloud Release Notes](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
+For more information about the current and past release notes for all solutions, see [Adobe Experience Cloud Release Notes](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).

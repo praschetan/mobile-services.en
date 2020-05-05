@@ -18,7 +18,7 @@ Methods are prefixed according to the solution, and Experience Cloud ID methods 
 
 * **`+` (nullable NSURL `*`)visitorAppendToURL:(nullable NSURL `*`)url;**
 
-  Appends Adobe visitor data to a URL string for use with the Adobe JavaScript library. To use this method, you must have Mobile SDK version 4.12 or higher. For more information, see [Append Visitor ID Helper Function](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-appendvisitorid.html). 
+  Appends Adobe visitor data to a URL string for use with the Adobe JavaScript library. To use this method, you must have Mobile SDK version 4.12 or higher. For more information, see [Append Visitor ID Helper Function](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/appendvisitorid.html). 
   
   >[!IMPORTANT]
   >

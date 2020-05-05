@@ -17,8 +17,7 @@ The `appFigures` data connector integration combines the power of the appFigures
 >
 >In the Mobile Services UI, after you configure the integration, the **[!UICONTROL App Store]** menu item and associated reports display in the left navigation pane.
 
-[appFigures Data Connector for Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/connectors/appfigures/) contains the following information:
-<!--REKHA: no idea where this guide lives--> 
+[appFigures Data Connector for Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/appfigures/appfigures-overview.html) contains the following information:
 
 * Key benefits and features of the integration 
 * Implementing the integration, including:
