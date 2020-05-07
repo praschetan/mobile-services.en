@@ -12,6 +12,14 @@ uuid: 16bb4de8-a216-47a8-928c-0b1e1421adcf
 
 Here is the release notes, known issues, and hot fix information for Android SDK 4.x for Experience Cloud Solutions:
 
+**April 3, 2020: 4.18.2**
+
+* In App Messaging - For security reasons, WebViews created by the SDK now set property 'setAllowFileAccess' equal to false.
+
+**March 12, 2020: 4.18.1**
+
+* Target – Target Session ID will now be added as a context data parameter “a.target.sessionId” in the internal Analytics-for-Target hit sent to Adobe Analytics.
+
 **January 16, 2020: 4.18.0**
 
 * Acquisition - Added a new API, `Analytics.processGooglePlayInstallReferrerUrl(final String url)`, to support Google Play Install Referrer APIs.
