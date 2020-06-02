@@ -2,6 +2,7 @@
 product: mobile-services
 audience: end-user
 user-guide-title: Mobile Services User Help
+user-guide-description: Mobile Services is an end-to-end solution that helps you acquire and engage mobile app users and analyze and optimize their experiences.
 ---
 
 # Mobile Services User Help {#using}
