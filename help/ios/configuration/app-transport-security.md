@@ -18,7 +18,7 @@ For the Adobe Mobile SDK version 4.7 or later to work seamlessly with ATS, use t
 
 In Adobe Mobile Services, by selecting the **[!UICONTROL Use HTTPS]** option in the Manage App Settings page, all hits from Analytics, Audience Manager, Target, and Adobe Experience Platform Identity Services are sent via HTTPS.
 
-As an alternative, you can whitelist service the following servers: 
+As an alternative, you may place the following servers in your 'allowed' list: 
 
 | Product | Instructions |
 |--- |--- |
